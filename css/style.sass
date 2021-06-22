@@ -1,0 +1,73 @@
+// Colors
+$orange: #D0835A
+$blue: #6FA2D3
+$green: #3F9168
+$dark-grey: #535050
+$light-grey: #707070
+$white: #ffffff
+
+// Fonts
+$header: mina,serif
+$subheader: Futura, Fira Sans, sans-serif
+$tagline: raleway, Helvetica, sans-serif
+$paragraph: Helvetica, sans-serif
+
+// Size
+$large: 80px
+$standard: 16px
+$small: 14px
+
+
+/* ----------- General --------------*/
+.row
+    display: flex
+    flex-direction: column
+    align-items: center
+
+/* ----------- Navbar --------------*/
+nav 
+    
+    ul
+        list-style: none
+
+        li
+            display: inline-flex
+
+            a
+                text-decoration: none
+                font-family: $tagline
+                color: $orange
+                padding: 0 15px
+
+
+/* ----------- Header --------------*/
+
+.header
+    background-color: $orange
+
+h1
+    font-family: $header 
+    font-size: $large
+    color: $white 
+    margin-top: 8%
+    margin-bottom: 1%
+    
+p
+    font-family: $tagline 
+    font-size: $small
+    color: $white  
+    margin-bottom: 5%  
+
+
+/* ----------- Intro --------------*/
+.intro-text
+    margin: 8% 0
+    text-align: center
+
+    p
+        font-family: $paragraph
+        font-size: $standard
+        color: $light-grey
+        line-height: 1.7
+        width: 70%
+        

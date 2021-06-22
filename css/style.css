@@ -1,3 +1,56 @@
+/* ----------- General --------------*/
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/* ----------- Navbar --------------*/
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-flex;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: raleway, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #D0835A;
+  padding: 0 15px;
+}
+
+/* ----------- Header --------------*/
+.header {
+  background-color: #D0835A;
+}
+
+h1 {
+  font-family: mina, serif;
+  font-size: 80px;
+  color: #ffffff;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+
+p {
+  font-family: raleway, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+
+/* ----------- Intro --------------*/
+.intro-text {
+  margin: 8% 0;
+  text-align: center;
+}
+.intro-text p {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #707070;
+  line-height: 1.7;
+  width: 70%;
+}
 
 /*# sourceMappingURL=style.css.map */
