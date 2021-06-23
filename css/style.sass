@@ -14,7 +14,7 @@ $paragraph: Helvetica, sans-serif
 
 // Size
 $large: 80px
-$medium: 36px
+$medium: 32px
 $standard: 16px
 $small: 14px
 
@@ -25,6 +25,8 @@ $small: 14px
     flex-direction: column
     align-items: center
 
+section
+    padding: 1.5% 0
 /* ----------- Navbar --------------*/
 nav 
     
@@ -40,6 +42,9 @@ nav
                 color: $orange
                 padding: 0 15px
 
+            a:hover
+                color: $blue
+                transition: 0.2s
 
 /* ----------- Header --------------*/
 
@@ -62,19 +67,90 @@ p
 
 /* ----------- Intro --------------*/
 .intro-text
-    margin-top: 5%
+    margin: 8% 0
     text-align: center
 
     p
-        font-family: $paragraph
+        font-family: $tagline
         font-size: $standard
         color: $light-grey
-        line-height: 1.8
+        line-height: 1.9
         width: 50%
+        margin: 0%
+
 
         
 /* ----------- Services --------------*/     
-h2 
-    font-family: $subheader
-    font-weight: 400
-    font-size: $medium
+.services 
+    background-color: $blue
+
+    .row
+        flex-direction: row
+        align-items: center
+        justify-content: center
+    
+    h2 
+        font-family: $subheader
+        font-weight: 400
+        font-size: $medium
+        color: $white
+
+    .homepage-service-box 
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: $white
+        border-radius: 8px
+        box-shadow: 25px 25px $orange
+        margin: 3% 5% 5% 5%
+        width: 30%
+        height: 300px
+
+    .homepage-service-box:hover   
+        transform: scale(1.006)
+        transition: transform 0.3
+
+    h5
+        font-family: $tagline
+        font-size: 20px
+        color: $light-grey   
+        font-weight: 500 
+    
+
+/* ----------- Testimonials --------------*/
+.testimonials
+    .row
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        width: 90%
+        margin: 0 5%
+
+    h2 
+        font-family: $subheader
+        font-weight: 400
+        font-size: $medium
+        color: $orange  
+        margin-bottom: 4%     
+
+    .testimonial-box
+        border: 2px solid $orange
+        border-radius: 40px
+        width: 40% 
+        margin: 1% 2% 3% 2%
+        display: flex
+        align-items: center
+        padding: 1%
+
+        p
+            font-family: $tagline
+            color: $light-grey
+            line-height: 1.7
+            text-align: center
+            padding: 3% 5%
+            margin: 2% 0
+
+
+/* ----------- Footer --------------*/
+footer
+    background-color: $orange

@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+section {
+  padding: 1.5% 0;
+}
+
 /* ----------- Navbar --------------*/
 nav ul {
   list-style: none;
@@ -17,6 +21,10 @@ nav ul li a {
   font-family: raleway, Helvetica, sans-serif;
   color: #D0835A;
   padding: 0 15px;
+}
+nav ul li a:hover {
+  color: #6FA2D3;
+  transition: 0.2s;
 }
 
 /* ----------- Header --------------*/
@@ -41,22 +49,91 @@ p {
 
 /* ----------- Intro --------------*/
 .intro-text {
-  margin-top: 5%;
+  margin: 8% 0;
   text-align: center;
 }
 .intro-text p {
-  font-family: Helvetica, sans-serif;
+  font-family: raleway, Helvetica, sans-serif;
   font-size: 16px;
   color: #707070;
-  line-height: 1.8;
+  line-height: 1.9;
   width: 50%;
+  margin: 0%;
 }
 
 /* ----------- Services --------------*/     
-h2 {
+.services {
+  background-color: #6FA2D3;
+}
+.services .row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.services h2 {
   font-family: futura-pt, fira sans, sans-serif;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 32px;
+  color: #ffffff;
+}
+.services .homepage-service-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 25px 25px #D0835A;
+  margin: 3% 5% 5% 5%;
+  width: 30%;
+  height: 300px;
+}
+.services .homepage-service-box:hover {
+  transform: scale(1.006);
+  transition: transform 0.3;
+}
+.services h5 {
+  font-family: raleway, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #707070;
+  font-weight: 500;
+}
+
+/* ----------- Testimonials --------------*/
+.testimonials .row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 5%;
+}
+.testimonials h2 {
+  font-family: futura-pt, fira sans, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #D0835A;
+  margin-bottom: 4%;
+}
+.testimonials .testimonial-box {
+  border: 2px solid #D0835A;
+  border-radius: 40px;
+  width: 40%;
+  margin: 1% 2% 3% 2%;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
+.testimonials .testimonial-box p {
+  font-family: raleway, Helvetica, sans-serif;
+  color: #707070;
+  line-height: 1.7;
+  text-align: center;
+  padding: 3% 5%;
+  margin: 2% 0;
+}
+
+/* ----------- Footer --------------*/
+footer {
+  background-color: #D0835A;
 }
 
 /*# sourceMappingURL=style.css.map */
