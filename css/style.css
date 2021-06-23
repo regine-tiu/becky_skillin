@@ -62,21 +62,21 @@ p {
 }
 
 /* ----------- Services --------------*/     
-.services {
+.homepage-services {
   background-color: #6FA2D3;
 }
-.services .row {
+.homepage-services .row {
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.services h2 {
+.homepage-services h2 {
   font-family: futura-pt, fira sans, sans-serif;
   font-weight: 400;
   font-size: 32px;
   color: #ffffff;
 }
-.services .homepage-service-box {
+.homepage-services .homepage-service-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,11 +87,11 @@ p {
   width: 30%;
   height: 300px;
 }
-.services .homepage-service-box:hover {
+.homepage-services .homepage-service-box:hover {
   transform: scale(1.006);
   transition: transform 0.3;
 }
-.services h5 {
+.homepage-services h5 {
   font-family: raleway, Helvetica, sans-serif;
   font-size: 20px;
   color: #707070;
