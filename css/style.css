@@ -135,5 +135,25 @@ p {
 footer {
   background-color: #D0835A;
 }
+footer .row {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  margin: 2% 1% 1% 1%;
+}
+footer img {
+  height: 35px;
+  width: 35px;
+}
+footer p {
+  margin-bottom: 3%;
+}
+footer .copyright a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
