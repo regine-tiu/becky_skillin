@@ -141,7 +141,7 @@ footer .row {
   align-items: center;
 }
 footer a {
-  margin: 2% 1% 1% 1%;
+  margin: 3% 1% 1% 1%;
 }
 footer img {
   height: 35px;
@@ -154,6 +154,46 @@ footer .copyright a {
   text-decoration: none;
   color: #ffffff;
   margin: 0;
+}
+
+/* ----------- About Page --------------*/  
+.about-content .row {
+  flex-direction: row;
+}
+.about-content .col-1-of-2 {
+  width: 50%;
+}
+.about-content .about-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content .about-photo img {
+  width: 75%;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 35px 35px #6FA2D3;
+  margin: 10% 0;
+}
+.about-content .about-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 5%;
+  width: 40%;
+}
+.about-content .about-text h2 {
+  font-family: futura-pt, fira sans, sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #6FA2D3;
+}
+.about-content .about-text .bio {
+  font-family: 32px;
+  line-height: 1.6;
+  color: #707070;
+  margin: 1 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
