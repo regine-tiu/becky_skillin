@@ -89,7 +89,7 @@ p
 
     .row
         flex-direction: row
-        align-items: center
+        align-items: flex-start
         justify-content: center
     
     h2 
@@ -126,14 +126,23 @@ p
         justify-content: center
         align-items: center
 
-        p 
-            color: $dark-grey
-            font-family: $tagline
-            border: 1px solid $orange   
-            padding: 10px 30px
-            border-radius: 50px     
+    .learn-more-btn a
+        text-decoration: none
+        color: $dark-grey
+        font-family: $tagline            
+        font-weight: 500
+        border: 1px solid $orange   
+        padding: 10px 30px
+        border-radius: 50px    
 
-    .learn-more-btn
+    .learn-more-btn a:hover
+        color: $white
+        background-color: $orange
+        opacity: 0.9
+        transition: 0.2s
+
+    .btn
+        margin-top: 1%
         margin-bottom: 10%
 
     img 
@@ -145,8 +154,7 @@ p
         
         li
             font-family: $tagline
-            font-weight: 500
-            color: $light-grey
+            
             padding: 1% 0
             text-align: center
             list-style: none

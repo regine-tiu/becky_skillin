@@ -67,7 +67,7 @@ p {
 }
 .homepage-services .row {
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .homepage-services h2 {
@@ -104,14 +104,23 @@ p {
   justify-content: center;
   align-items: center;
 }
-.homepage-services .panel p {
+.homepage-services .learn-more-btn a {
+  text-decoration: none;
   color: #535050;
   font-family: raleway, Helvetica, sans-serif;
+  font-weight: 500;
   border: 1px solid #D0835A;
   padding: 10px 30px;
   border-radius: 50px;
 }
-.homepage-services .learn-more-btn {
+.homepage-services .learn-more-btn a:hover {
+  color: #ffffff;
+  background-color: #D0835A;
+  opacity: 0.9;
+  transition: 0.2s;
+}
+.homepage-services .btn {
+  margin-top: 1%;
   margin-bottom: 10%;
 }
 .homepage-services img {
@@ -123,8 +132,6 @@ p {
 }
 .homepage-services ul li {
   font-family: raleway, Helvetica, sans-serif;
-  font-weight: 500;
-  color: #707070;
   padding: 1% 0;
   text-align: center;
   list-style: none;
