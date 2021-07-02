@@ -150,6 +150,9 @@ footer img {
 footer p {
   margin-bottom: 3%;
 }
+footer .li-logo img {
+  border-radius: 8px;
+}
 footer .copyright a {
   text-decoration: none;
   color: #ffffff;
