@@ -78,6 +78,7 @@ p {
 }
 .homepage-services .homepage-service-box {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
@@ -85,17 +86,48 @@ p {
   box-shadow: 25px 25px #D0835A;
   margin: 3% 5% 5% 5%;
   width: 30%;
-  height: 300px;
+  height: auto;
 }
 .homepage-services .homepage-service-box:hover {
   transform: scale(1.006);
   transition: transform 0.3;
 }
 .homepage-services h5 {
-  font-family: raleway, Helvetica, sans-serif;
+  font-family: futura-pt, fira sans, sans-serif;
   font-size: 20px;
-  color: #707070;
+  color: #535050;
   font-weight: 500;
+}
+.homepage-services .panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-services .panel p {
+  color: #535050;
+  font-family: raleway, Helvetica, sans-serif;
+  border: 1px solid #D0835A;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+.homepage-services .learn-more-btn {
+  margin-bottom: 10%;
+}
+.homepage-services img {
+  width: 25%;
+  margin-bottom: 5%;
+}
+.homepage-services ul {
+  padding-inline-start: 0;
+}
+.homepage-services ul li {
+  font-family: raleway, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #707070;
+  padding: 1% 0;
+  text-align: center;
+  list-style: none;
 }
 
 /* ----------- Testimonials --------------*/

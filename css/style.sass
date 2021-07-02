@@ -100,6 +100,7 @@ p
 
     .homepage-service-box 
         display: flex
+        flex-direction: column
         justify-content: center
         align-items: center
         background-color: $white
@@ -107,17 +108,49 @@ p
         box-shadow: 25px 25px $orange
         margin: 3% 5% 5% 5%
         width: 30%
-        height: 300px
+        height: auto
 
     .homepage-service-box:hover   
         transform: scale(1.006)
         transition: transform 0.3
 
     h5
-        font-family: $tagline
+        font-family: $subheader
         font-size: 20px
-        color: $light-grey   
+        color: $dark-grey   
         font-weight: 500 
+    
+    .panel
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        p 
+            color: $dark-grey
+            font-family: $tagline
+            border: 1px solid $orange   
+            padding: 10px 30px
+            border-radius: 50px     
+
+    .learn-more-btn
+        margin-bottom: 10%
+
+    img 
+        width:25%
+        margin-bottom: 5%
+    
+    ul
+        padding-inline-start: 0
+        
+        li
+            font-family: $tagline
+            font-weight: 500
+            color: $light-grey
+            padding: 1% 0
+            text-align: center
+            list-style: none
+
     
 
 /* ----------- Testimonials --------------*/
