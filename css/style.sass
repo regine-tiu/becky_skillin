@@ -84,7 +84,8 @@ p
 
 
         
-/* ----------- Services --------------*/     
+/* ----------- Services --------------*/    
+
 .homepage-services 
     background-color: $blue
 
@@ -226,29 +227,34 @@ footer
             color: $white   
             margin: 0 
 
-
-/* ----------- About Page --------------*/  
+/* -------------------------------------*/ 
+/* ----------- About Page --------------*/
+/* -------------------------------------*/   
 .about-content
     .row
         flex-direction: row
         
+    h2
+        font-family: $subheader
+        font-weight: 400
+        font-size: $medium-large
+        color: $blue
 
     .col-1-of-2
         width: 50%
 
     .about-photo
         display: flex
-        justify-content: center
+        justify-content: flex-end
         align-items: center
         
-
         img
-            width: 75%
+            width: 70%
             display: flex
             border-radius: 10px
             box-shadow: 35px 35px $blue
             margin: 10% 0
-
+            margin-right: 10%
 
     .about-text
         display: flex
@@ -267,8 +273,22 @@ footer
 
 /* ----------- Service Page --------------*/  
 .services
+    .row
+        flex-direction: column
+
+    .service-box
+        border: 3px solid $orange
+        border-radius: 50px
+        min-width: 70%
+        margin-bottom: 5%
+        display: flex
+        flex-direction: column
+        align-items: center
+        
     h2
-    font-family: $subheader
-    font-weight: 400
-    font-size: $medium-large
-    color: $blue
+        font-family: $subheader
+        font-weight: 400
+        font-size: $medium
+        color: $blue
+    img
+        width: 35%    
