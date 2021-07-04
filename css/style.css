@@ -245,27 +245,68 @@ footer .copyright a {
   margin: 1 5%;
 }
 
-/* ----------- Service Page --------------*/  
+/* -------------------------------------*/ 
+/* ----------- Service Page ------------*/  
+/* -------------------------------------*/     
 .services .row {
   flex-direction: column;
 }
-.services .service-box {
-  border: 3px solid #D0835A;
+.services h2 {
+  font-family: futura-pt, fira sans, sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #6FA2D3;
+  align-content: flex-start;
+}
+
+.service-box {
+  border: 2px solid #D0835A;
   border-radius: 50px;
-  min-width: 70%;
+  width: 70%;
   margin-bottom: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.services h2 {
+.service-box h2 {
   font-family: futura-pt, fira sans, sans-serif;
   font-weight: 400;
   font-size: 32px;
   color: #6FA2D3;
 }
-.services img {
+.service-box .hidden-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-box .hidden-box img {
   width: 35%;
+  margin-bottom: 10%;
+}
+.service-box h3 {
+  font-family: futura-pt, fira sans, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #6FA2D3;
+  margin-bottom: 2%;
+}
+.service-box .service-box-row {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-box .service-box-row img {
+  width: 50px;
+  padding-right: 8%;
+}
+.service-box .service-box-row p {
+  color: #535050;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 75%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -270,25 +270,63 @@ footer
             color: $light-grey
             margin: 1 5%
 
-
-/* ----------- Service Page --------------*/  
+/* -------------------------------------*/ 
+/* ----------- Service Page ------------*/  
+/* -------------------------------------*/     
 .services
     .row
         flex-direction: column
+    h2
+        font-family: $subheader
+        font-weight: 400
+        font-size: $medium-large
+        color: $blue
+        align-content: flex-start
 
-    .service-box
-        border: 3px solid $orange
-        border-radius: 50px
-        min-width: 70%
-        margin-bottom: 5%
-        display: flex
-        flex-direction: column
-        align-items: center
+.service-box
+    border: 2px solid $orange
+    border-radius: 50px
+    width: 70%
+    margin-bottom: 5%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
         
     h2
         font-family: $subheader
         font-weight: 400
         font-size: $medium
         color: $blue
-    img
-        width: 35%    
+
+    .hidden-box
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center 
+    
+        img
+            width: 35%   
+            margin-bottom: 10% 
+    h3 
+        font-family: $subheader
+        font-weight: 400
+        font-size: $medium
+        color: $blue
+        margin-bottom: 2%   
+        
+    .service-box-row
+        width: 80%
+        display: flex
+        justify-content: center
+        align-items: center
+
+        img
+            width: 50px
+            padding-right: 8%
+
+        p
+            color: $dark-grey
+            font-size: $standard
+            line-height: 1.5
+            width: 75%    
