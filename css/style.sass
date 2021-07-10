@@ -112,9 +112,9 @@ p
         width: 30%
         height: auto
 
-    .homepage-service-box:hover   
-        transform: scale(1.006)
-        transition: transform 0.3
+        :hover   
+            transform: scale(1.006)
+            transition: transform 0.3
 
     h5
         font-family: $subheader
@@ -282,11 +282,9 @@ footer
         font-size: $medium-large
         color: $blue
         align-content: flex-start
-    
     img
-        width: 45%   
-        margin-bottom: 10%   
-
+            width: 45%  
+            margin-bottom: 8%    
 
 .service-box
     border: 2px solid $orange
@@ -308,7 +306,7 @@ footer
         display: flex
         flex-direction: column
         align-items: center
-        justify-content: center 
+        justify-content: center   
      
     h3 
         font-family: $subheader
@@ -327,6 +325,7 @@ footer
         img
             width: 40px
             padding-right: 8%
+            padding-top: 10%
 
         p
             color: $dark-grey
@@ -335,11 +334,31 @@ footer
             width: 75% 
             margin-bottom: 0% 
 
-.contact-btn a
-        text-decoration: none
+.org-section
+    img
+        width: 250px
+        margin-bottom: 3%
+   
+
+.contact-btn   
+    margin: 5% 0
+
+    p
         color: $dark-grey
-        font-family: $tagline            
+        font-family: $tagline 
+        font-size: $standard           
         font-weight: 500
-        border: 1px solid $orange   
-        padding: 10px 30px
-        border-radius: 50px     
+        padding: 10px 35px
+        border-radius: 50px  
+        border: 1.5px solid $orange    
+        
+    a
+        text-decoration: none
+
+        :hover
+            color: $white
+            background-color: $orange
+            opacity: 0.9
+            transition: 0.2s
+
+          
