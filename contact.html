@@ -52,8 +52,31 @@
 
   <!------------ Contact Page ---------------> 
   
-  <section class="contact">
-    
+  <section class="contact-form">
+    <div class="row">
+      <h2>Contact Me</h2>
+      <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+
+          <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="Your Email" required="">
+
+          <label for="service-type">Service Type</label>
+          <select name="service" id="service" required="">
+            <option value="Select" selected="" disabled="">Select</option>
+            <option value="For Authors">For Authors</option>
+            <option value="For Organizations">For Organizations</option>
+            <option value="Not Sure Yet">Not Sure Yet</option>
+            <option value="Other">Other</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" placeholder="Write your message here." required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Send Message">
+    </div>    
   </section>
 
  <!-------------- Footer --------------->
