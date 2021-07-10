@@ -55,7 +55,7 @@
   <section class="contact-form">
     <div class="row">
       <h2>Contact Me</h2>
-      <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+      <form id="fs-frm" name="bs-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
         <fieldset id="fs-frm-inputs">
           <label for="full-name">Name</label>
             <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -78,6 +78,83 @@
         <input type="submit" value="Send Message">
     </div>    
   </section>
+
+
+  <style>/* reset */
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm textarea,
+  #fs-frm fieldset,
+  #fs-frm optgroup,
+  #fs-frm label,
+  #fs-frm #card-element:disabled {
+    font-size: 100%;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  /* border, padding, margin, width */
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm textarea,
+  #fs-frm #card-element {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.9);
+    padding: .75em 1rem;
+    margin-bottom: 1.5rem;
+  }
+  #fs-frm input:focus,
+  #fs-frm select:focus,
+  #fs-frm textarea:focus {
+    background-color: white;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color:#D0835A;
+    outline-offset: -1px;
+  }
+  #fs-frm [type="text"],
+  #fs-frm [type="email"] {
+    width: 600px;
+  }
+  #fs-frm [type="button"],
+  #fs-frm [type="submit"],
+  #fs-frm [type="reset"] {
+    width: auto;
+    cursor: pointer;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 90%;
+    margin-top: 2%;
+  }
+  #fs-frm [type="button"]:focus,
+  #fs-frm [type="submit"]:focus,
+  #fs-frm [type="reset"]:focus {
+    outline: none;
+  }
+  #fs-frm [type="submit"],
+  #fs-frm [type="reset"] {
+    margin-bottom: 0;
+  }
+  #fs-frm select {
+    text-transform: none;
+  }
+  
+  #fs-frm [type="radio"] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+  }
+  </style>
 
  <!-------------- Footer --------------->
  <footer>

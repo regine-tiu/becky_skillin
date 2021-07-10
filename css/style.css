@@ -339,5 +339,14 @@ footer .copyright a {
 /* -------------------------------------*/ 
 /* ----------- Contact Page ------------*/  
 /* -------------------------------------*/             
+.contact-form {
+  margin-bottom: 5%;
+}
+.contact-form .row {
+  flex-direction: column;
+}
+.contact-form h2 {
+  font-size: 48px;
+}
 
 /*# sourceMappingURL=style.css.map */
