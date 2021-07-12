@@ -42,6 +42,9 @@ nav ul li a:hover {
 .header {
   background-color: #D0835A;
 }
+.header a {
+  text-decoration: none;
+}
 
 h1 {
   font-family: mina, serif;
@@ -129,7 +132,10 @@ p {
   transition: 0.2s;
 }
 .homepage-services .btn {
-  margin: 10% 28% 15% 28%;
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  margin-bottom: 12%;
 }
 .homepage-services img {
   width: 25%;
@@ -300,9 +306,9 @@ footer .copyright a {
 }
 .service-box .service-box-row p {
   color: #535050;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
-  width: 75%;
+  width: 70%;
   margin-bottom: 0%;
 }
 
@@ -318,10 +324,9 @@ footer .copyright a {
   margin: 5% 0;
 }
 .contact-btn p {
-  color: #535050;
+  color: #707070;
   font-family: raleway, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: 500;
   padding: 10px 35px;
   border-radius: 50px;
   border: 1.5px solid #D0835A;

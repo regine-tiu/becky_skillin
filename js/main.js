@@ -6,9 +6,7 @@ $(document).ready(() => {
         if ($(this).hasClass('box-active')) {
             $(this).removeClass('box-active');
             $('.panel-a').hide()
-        }
-        else
-        {
+        } else {
             $(this).addClass('box-active');
             $('.panel-a').show(400)
         }
@@ -18,9 +16,7 @@ $(document).ready(() => {
         if ($(this).hasClass('box-active')) {
         $(this).removeClass('box-active');
         $('.panel-b').hide()
-        }
-        else
-        {
+        } else {
         $(this).addClass('box-active');
             $('.panel-b').show(400)
         }
