@@ -1,14 +1,30 @@
 $(document).ready(() => {
 
 /*----- Homepage Service Panel Options --------*/
-    $('.box-one').on('click', event =>{
-        $(event.currentTarget).addClass('box-active');
-        $('.panel-a').toggle(400)
+
+
+    $('.box-one').on('click', function() {
+        if ($(this).hasClass('box-active')) {
+            $(this).removeClass('box-active');
+            $('.panel-a').hide()
+        }
+        else
+        {
+            $(this).addClass('box-active');
+            $('.panel-a').show(400)
+        }
     });
 
-    $('.box-two').on('click', event =>{
-        $(event.currentTarget).addClass('box-active');
-        $('.panel-b').toggle(400)
+    $('.box-two').on('click', function() {
+        if ($(this).hasClass('box-active')) {
+        $(this).removeClass('box-active');
+        $('.panel-b').hide()
+        }
+        else
+        {
+        $(this).addClass('box-active');
+            $('.panel-b').show(400)
+        }
     });
 
 })
