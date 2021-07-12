@@ -288,9 +288,9 @@ footer .copyright a {
   align-items: center;
   justify-content: center;
 }
-.service-box .hidden-box img {
-  width: 250px;
-  margin-bottom: 3%;
+.service-box .hidden-box .main-img {
+  width: 25%;
+  margin: 3% 37.5%;
 }
 .service-box h3 {
   font-family: futura-pt, fira sans, sans-serif;
@@ -307,7 +307,7 @@ footer .copyright a {
   align-items: center;
   margin: 0 7.5%;
 }
-.service-box .service-box-row img {
+.service-box .service-box-row .number {
   width: 40px;
   padding-right: 8%;
 }
@@ -319,12 +319,13 @@ footer .copyright a {
   margin-bottom: 0%;
 }
 
-.org-section {
+.org-box {
   text-align: center;
 }
 
 .contact-btn {
-  margin: 5% 0;
+  width: 20%;
+  margin: 4% 40%;
 }
 .contact-btn p {
   color: #707070;
@@ -333,6 +334,7 @@ footer .copyright a {
   padding: 10px 35px;
   border-radius: 50px;
   border: 1.5px solid #D0835A;
+  text-align: center;
 }
 .contact-btn a {
   text-decoration: none;
