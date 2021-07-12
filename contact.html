@@ -52,7 +52,7 @@
 
   <!------------ Contact Page ---------------> 
   
-  <section class="contact-form">
+  <section class="contact-form" id="contact-form">
     <div class="row">
       <h2>Contact Me</h2>
       <form id="fs-frm" name="bs-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
@@ -137,11 +137,13 @@
     padding: 10px 30px;
     font-size: 90%;
     margin-top: 2%;
+    border: 1px solid #D0835A
   }
-  #fs-frm [type="button"]:focus,
-  #fs-frm [type="submit"]:focus,
-  #fs-frm [type="reset"]:focus {
-    outline: none;
+  #fs-frm [type="button"]:hover,
+  #fs-frm [type="submit"]:hover {
+    background-color: #D0835A;
+    color: #fff;
+    transition: 0.2;
   }
   #fs-frm [type="submit"],
   #fs-frm [type="reset"] {

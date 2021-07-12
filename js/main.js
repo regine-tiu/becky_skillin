@@ -1,7 +1,6 @@
 $(document).ready(() => {
 
-/*----- Homepage Service Panel Options --------*/
-
+    /*----- Homepage Service Panel Options --------*/
 
     $('.box-one').on('click', function() {
         if ($(this).hasClass('box-active')) {
@@ -27,4 +26,6 @@ $(document).ready(() => {
         }
     });
 
+
+    /*----- Service Page Panel Options --------*/  
 })
