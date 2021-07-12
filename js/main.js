@@ -24,4 +24,12 @@ $(document).ready(() => {
 
 
     /*----- Service Page Panel Options --------*/  
+    $('.author-section').on('click', () => {
+        $('.author-box').toggle(600)
+    });
+
+    $('.org-section').on('click', () => {
+        $('.org-box').toggle(600)
+    });
+
 })

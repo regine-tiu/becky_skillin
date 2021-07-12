@@ -100,12 +100,12 @@ p {
   height: 300px;
   cursor: pointer;
 }
+.homepage-services .box-active {
+  height: auto;
+}
 .homepage-services .homepage-service-box:hover {
   transform: scale(1.008);
   transition: transform 0.3;
-}
-.homepage-services .box-active {
-  height: auto;
 }
 .homepage-services h5 {
   font-family: futura-pt, fira sans, sans-serif;
@@ -262,10 +262,6 @@ footer .copyright a {
 .services h2 {
   font-size: 48px;
 }
-.services img {
-  width: 45%;
-  margin-bottom: 8%;
-}
 
 .service-box {
   border: 2px solid #D0835A;
@@ -276,15 +272,25 @@ footer .copyright a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.service-box :hover {
+  color: #707070;
 }
 .service-box h2 {
-  font-size: 32px;
+  font-size: 28px;
+  color: #535050;
+  font-weight: 500;
 }
 .service-box .hidden-box {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.service-box .hidden-box img {
+  width: 250px;
+  margin-bottom: 3%;
 }
 .service-box h3 {
   font-family: futura-pt, fira sans, sans-serif;
@@ -299,6 +305,7 @@ footer .copyright a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 7.5%;
 }
 .service-box .service-box-row img {
   width: 40px;
@@ -314,10 +321,6 @@ footer .copyright a {
 
 .org-section {
   text-align: center;
-}
-.org-section img {
-  width: 250px;
-  margin-bottom: 3%;
 }
 
 .contact-btn {

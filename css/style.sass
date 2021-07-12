@@ -34,10 +34,11 @@ body
     font-family: $tagline
 
 h2 
-        font-family: $subheader
-        font-weight: 400
-        font-size: $medium
-        color: $blue
+    font-family: $subheader
+    font-weight: 400
+    font-size: $medium
+    color: $blue
+
 
 /* ----------- Navbar --------------*/
 nav 
@@ -69,8 +70,6 @@ h1
     color: $white 
     margin-top: 8%
     margin-bottom: 1%
-    
-
 p
     font-family: $tagline 
     font-size: $small
@@ -118,12 +117,12 @@ p
         height: 300px
         cursor: pointer
 
+    .box-active
+        height: auto
+
     .homepage-service-box:hover   
         transform: scale(1.008)
-        transition: transform 0.3
-
-    .box-active
-        height: auto  
+        transition: transform 0.3  
 
     h5
         font-family: $subheader
@@ -280,9 +279,7 @@ footer
     h2
         font-size: $medium-large
         
-    img
-            width: 45%  
-            margin-bottom: 8%    
+    
 
 .service-box
     border: 2px solid $orange
@@ -293,15 +290,25 @@ footer
     flex-direction: column
     align-items: center
     justify-content: center
-        
+    cursor: pointer
+
+    :hover
+        color: $light-grey  
+
     h2
-        font-size: $medium
+        font-size: 28px
+        color: $dark-grey
+        font-weight: 500
 
     .hidden-box
-        display: flex
+        display: none
         flex-direction: column
         align-items: center
-        justify-content: center   
+        justify-content: center  
+
+        img
+            width: 250px
+            margin-bottom: 3% 
      
     h3 
         font-family: $subheader
@@ -316,6 +323,7 @@ footer
         display: flex
         justify-content: center
         align-items: center
+        margin: 0 7.5%
 
         img
             width: 40px
@@ -326,15 +334,11 @@ footer
             font-size: 15px
             line-height: 1.5
             width: 70% 
-            margin-bottom: 0%
-    
+            margin-bottom: 0%       
 
 .org-section
     text-align: center 
     
-    img
-        width: 250px
-        margin-bottom: 3%
    
 
 .contact-btn   
