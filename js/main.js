@@ -1,10 +1,7 @@
 $(document).ready(() => {
     /*-------------- Webpage Fade In -------------*/
-    $('.intro-text').addClass('load');
+    $('.fadein').addClass('load');
 
-    $('.testimonials').on('scroll', event => {
-        $('.testimonials').addClass('load')
-      })
 
     /*------ Homepage Service Panel Options ------*/
 

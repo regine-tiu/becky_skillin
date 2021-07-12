@@ -165,14 +165,6 @@ p {
 }
 
 /* ----------- Testimonials --------------*/
-.testimonials {
-  opacity: 0;
-  -webkit-transition: opacity 1s ease-in;
-  -webkit-transition--moz-transition: opacity 2s ease-in;
-  -webkit-transition--moz-transition--ms-transition: opacity 2s ease-in;
-  -webkit-transition--moz-transition--ms-transition--o-transition: opacity 2s ease-in;
-  -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 2s ease-in;
-}
 .testimonials .row {
   flex-direction: row;
   align-items: center;
@@ -282,6 +274,12 @@ footer .copyright a {
 }
 .services h2 {
   font-size: 48px;
+}
+.services p {
+  color: #707070;
+  text-align: center;
+  width: 40%;
+  font-style: italic;
 }
 
 .service-box {
