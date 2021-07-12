@@ -113,11 +113,15 @@ p
         box-shadow: 25px 25px $orange
         margin: 3% 5% 5% 5%
         width: 30%
-        height: auto
+        height: 300px
+        cursor: pointer
 
-        :hover   
-            transform: scale(1.006)
-            transition: transform 0.3
+    .homepage-service-box:hover   
+        transform: scale(1.008)
+        transition: transform 0.3
+
+    .box-active
+        height: auto  
 
     h5
         font-family: $subheader
@@ -126,10 +130,7 @@ p
         font-weight: 500 
     
     .panel
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
+        display: none
 
     .learn-more-btn a
         text-decoration: none
@@ -147,12 +148,11 @@ p
         transition: 0.2s
 
     .btn
-        margin-top: 1%
-        margin-bottom: 10%
+        margin: 10% 28% 15% 28%
 
     img 
         width:25%
-        margin-bottom: 5%
+        margin: 0 37.5% 5% 37.5%
     
     ul
         padding-inline-start: 0

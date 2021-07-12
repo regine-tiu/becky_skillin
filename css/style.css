@@ -94,11 +94,15 @@ p {
   box-shadow: 25px 25px #D0835A;
   margin: 3% 5% 5% 5%;
   width: 30%;
-  height: auto;
+  height: 300px;
+  cursor: pointer;
 }
-.homepage-services .homepage-service-box :hover {
-  transform: scale(1.006);
+.homepage-services .homepage-service-box:hover {
+  transform: scale(1.008);
   transition: transform 0.3;
+}
+.homepage-services .box-active {
+  height: auto;
 }
 .homepage-services h5 {
   font-family: futura-pt, fira sans, sans-serif;
@@ -107,10 +111,7 @@ p {
   font-weight: 500;
 }
 .homepage-services .panel {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: none;
 }
 .homepage-services .learn-more-btn a {
   text-decoration: none;
@@ -128,12 +129,11 @@ p {
   transition: 0.2s;
 }
 .homepage-services .btn {
-  margin-top: 1%;
-  margin-bottom: 10%;
+  margin: 10% 28% 15% 28%;
 }
 .homepage-services img {
   width: 25%;
-  margin-bottom: 5%;
+  margin: 0 37.5% 5% 37.5%;
 }
 .homepage-services ul {
   padding-inline-start: 0;
