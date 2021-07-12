@@ -20,6 +20,19 @@ h2 {
   color: #6FA2D3;
 }
 
+.fadein {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in;
+  -webkit-transition--moz-transition: opacity 2s ease-in;
+  -webkit-transition--moz-transition--ms-transition: opacity 2s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition: opacity 2s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 2s ease-in;
+}
+
+.load {
+  opacity: 1;
+}
+
 /* ----------- Navbar --------------*/
 nav ul {
   list-style: none;
@@ -152,6 +165,14 @@ p {
 }
 
 /* ----------- Testimonials --------------*/
+.testimonials {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in;
+  -webkit-transition--moz-transition: opacity 2s ease-in;
+  -webkit-transition--moz-transition--ms-transition: opacity 2s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition: opacity 2s ease-in;
+  -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 2s ease-in;
+}
 .testimonials .row {
   flex-direction: row;
   align-items: center;

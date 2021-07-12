@@ -1,6 +1,12 @@
 $(document).ready(() => {
+    /*-------------- Webpage Fade In -------------*/
+    $('.intro-text').addClass('load');
 
-    /*----- Homepage Service Panel Options --------*/
+    $('.testimonials').on('scroll', event => {
+        $('.testimonials').addClass('load')
+      })
+
+    /*------ Homepage Service Panel Options ------*/
 
     $('.box-one').on('click', function() {
         if ($(this).hasClass('box-active')) {
@@ -23,7 +29,7 @@ $(document).ready(() => {
     });
 
 
-    /*----- Service Page Panel Options --------*/  
+    /*------- Service Page Panel Options -------*/  
     $('.author-section').on('click', () => {
         $('.author-box').toggle(600)
     });
