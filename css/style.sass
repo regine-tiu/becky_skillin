@@ -148,7 +148,13 @@ p
         flex-direction: row
         align-items: flex-start
         justify-content: center
-    
+
+        @media screen and (max-width: $tablet)
+            align-items: center
+            flex-direction: column
+            width: 50%
+            margin: 0 25%
+           
     h2 
         color: $white
 
@@ -164,6 +170,27 @@ p
         width: 30%
         height: 300px
         cursor: pointer
+
+        @media screen and (max-width: $tablet)
+            box-shadow: 15px 15px $orange
+            width: 100%
+
+        @media screen and (max-width: $phone)
+            height: 200px  
+
+    .box-one
+        @media screen and (max-width: $tablet)
+            margin-bottom: 10%
+
+        @media screen and (max-width: $phone)
+            margin-bottom: 15%   
+
+    .box-two
+        @media screen and (max-width: $tablet)
+            margin-bottom: 15%
+        
+        @media screen and (max-width: $phone)
+            margin-bottom: 20% 
 
     .box-active
         height: auto
