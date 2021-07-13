@@ -85,6 +85,7 @@ nav
 
 .header
     background-color: $orange
+
     a
         text-decoration: none
 h1
@@ -154,7 +155,11 @@ p
             flex-direction: column
             width: 50%
             margin: 0 25%
-           
+
+        @media screen and (max-width: $phone)
+            width: 60%
+            margin: 0 20%
+
     h2 
         color: $white
 
@@ -241,7 +246,10 @@ p
             padding: 1% 0
             text-align: center
             list-style: none
-    
+
+            @media screen and (max-width: $phone)
+                font-size: 14px
+                line-height: 1.6
 
 /* ----------- Testimonials --------------*/
 .testimonials
@@ -251,6 +259,10 @@ p
         justify-content: center
         width: 90%
         margin: 0 5%
+
+        @media screen and (max-width: $phone)
+            flex-direction: column
+
 
     h2 
         color: $orange  
@@ -264,6 +276,13 @@ p
         display: flex
         align-items: center
         padding: 1%
+
+        @media screen and (max-width: $tablet)
+            border: 1px solid $orange
+
+        @media screen and (max-width: $phone)
+            width: 80%
+            border: none
 
         p
             font-family: $tagline
