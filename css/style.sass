@@ -12,14 +12,17 @@ $tagline: raleway, Helvetica, sans-serif
 $paragraph: Helvetica, sans-serif
 
 // Size
-$large: 80px
+$large: 90px
 $medium-large: 48px
 $medium: 32px
 $standard: 16px
 $small: 14px
 
-// Screen Size
-
+//Screen Size
+$phone: 480px
+$tablet: 768px
+$laptop: 1200px
+$desktop: 1400px
 
 /* ----------- General --------------*/
 .row
@@ -52,8 +55,15 @@ h2
 
 /* ----------- Navbar --------------*/
 nav 
+    display: flex
+    justify-content: center
+    
+    @media screen and (max-width: $tablet)
+        text-align: center
+
     ul
         list-style: none
+        padding-inline-start: 0
 
         li
             display: inline-flex
@@ -63,6 +73,9 @@ nav
                 font-family: $tagline
                 color: $orange
                 padding: 0 15px
+            
+                @media screen and (max-width: $tablet)
+                font-size: 14px 
 
             a:hover
                 color: $blue
@@ -80,11 +93,28 @@ h1
     color: $white 
     margin-top: 8%
     margin-bottom: 1%
+    text-align: center
+
+    @media screen and (min-width: $laptop)
+        font-size: 90px 
+
+    @media screen and (max-width: $tablet)
+        font-size: 55px 
+        line-height: 1.6     
+
 p
     font-family: $tagline 
     font-size: $small
     color: $white  
     margin-bottom: 5%  
+    text-align: center
+
+    @media screen and (min-width: $laptop)
+        margin-top: 2%
+        font-size: 18px
+    
+    @media screen and (max-width: $tablet)
+        font-size: 12px 
 
 
 /* ----------- Intro --------------*/
@@ -100,7 +130,15 @@ p
         width: 50%
         margin: 0%
 
-        
+        @media screen and (max-width: $tablet)
+            font-size: 14px 
+            width: 60%
+            
+        @media screen and (max-width: $phone)    
+            width: 70%
+            margin: 8% 0
+   
+     
 /* ----------- Services --------------*/    
 
 .homepage-services 
