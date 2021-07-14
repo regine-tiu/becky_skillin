@@ -90,7 +90,7 @@ h1 {
   }
 }
 
-p {
+.tagline {
   font-family: raleway, Helvetica, sans-serif;
   font-size: 14px;
   color: #ffffff;
@@ -98,13 +98,13 @@ p {
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
-  p {
+  .tagline {
     margin-top: 2%;
     font-size: 18px;
   }
 }
 @media screen and (max-width: 768px) {
-  p {
+  .tagline {
     font-size: 12px;
   }
 }
@@ -365,6 +365,12 @@ footer img {
 }
 footer p {
   margin-bottom: 3%;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  footer p {
+    font-size: 14px;
+  }
 }
 footer .li-logo img {
   border-radius: 8px;
@@ -441,6 +447,7 @@ footer .copyright a {
   text-align: center;
   width: 60%;
   font-style: italic;
+  margin-bottom: 4%;
 }
 
 .service-box {
@@ -536,7 +543,7 @@ footer .copyright a {
 }
 .service-box .service-box-row p {
   color: #535050;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   width: 70%;
   margin-bottom: 0%;
@@ -544,6 +551,7 @@ footer .copyright a {
 @media screen and (max-width: 768px) {
   .service-box .service-box-row p {
     width: 80%;
+    text-align: center;
   }
 }
 @media screen and (max-width: 480px) {
@@ -558,18 +566,35 @@ footer .copyright a {
 }
 
 .contact-btn {
-  width: 20%;
-  margin: 4% 40%;
+  width: 30%;
+  margin: 8% 35%;
+}
+@media screen and (max-width: 768px) {
+  .contact-btn {
+    width: 40%;
+    margin: 8% 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-btn {
+    width: 50%;
+    margin: 8% 25%;
+  }
 }
 .contact-btn p {
   color: #707070;
   font-family: raleway, Helvetica, sans-serif;
   font-size: 16px;
-  padding: 10px 35px;
+  padding: 10px 0;
   border-radius: 50px;
   border: 1.5px solid #D0835A;
   text-align: center;
   display: block;
+}
+@media screen and (max-width: 768px) {
+  .contact-btn p {
+    font-size: 14px;
+  }
 }
 .contact-btn a {
   text-decoration: none;
