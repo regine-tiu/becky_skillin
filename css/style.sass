@@ -391,14 +391,24 @@ footer
 /* ----------- Service Page ------------*/  
 /* -------------------------------------*/     
 .services
+    margin-bottom: 3%
+
     .row
         flex-direction: column
-    h2
+    h4
+        font-family: $subheader
         font-size: $medium-large
-    p
+        font-weight: 400
+        color: $blue
+        margin-bottom: 1%
+
+        @media screen and (max-width: $tablet)
+            font-size: $medium
+
+    .service-intro
         color: $light-grey
         text-align: center
-        width: 40%  
+        width: 60%  
         font-style: italic
         
 .service-box
@@ -415,10 +425,19 @@ footer
     :hover
         color: $light-grey  
 
+    @media screen and (max-width: $phone)
+        border: none    
+
     h2
         font-size: 28px
         color: $dark-grey
         font-weight: 500
+
+        @media screen and (max-width: $tablet)
+            font-size: 24px
+
+        @media screen and (max-width: $phone)
+            font-size: 20px
 
     .hidden-box
         display: none
@@ -437,6 +456,14 @@ footer
         color: $blue
         margin-bottom: 1%  
         padding-left: 60px 
+
+        @media screen and (max-width: $tablet)
+            padding-left: 0
+            font-size: 24px
+            margin-bottom: -2%
+
+        @media screen and (max-width: $phone)    
+            font-size: 20px
         
     .service-box-row
         width: 85%
@@ -445,16 +472,34 @@ footer
         align-items: center
         margin: 0 7.5%
 
+        @media screen and (max-width: $tablet)
+            margin: 2% 7.5%
+
+        @media screen and (max-width: $phone)
+            width: 100%
+            margin: 2% 0
+
         .number
             width: 40px
-            padding-right: 8%
-           
+            padding-right: 8% 
+
+            @media screen and (max-width: $tablet)
+                display: none
         p
             color: $dark-grey
             font-size: 15px
             line-height: 1.5
             width: 70% 
-            margin-bottom: 0%       
+            margin-bottom: 0%  
+
+            @media screen and (max-width: $tablet)
+                width: 80%
+
+            @media screen and (max-width: $phone)
+                width: 100%
+                font-size: 14px
+
+
 .org-box
     text-align: center
 
@@ -470,6 +515,7 @@ footer
         border-radius: 50px  
         border: 1.5px solid $orange  
         text-align: center
+        display: block
     a
         text-decoration: none
 
