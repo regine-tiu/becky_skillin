@@ -552,6 +552,7 @@ footer .copyright a {
   .service-box .service-box-row p {
     width: 80%;
     text-align: center;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -567,13 +568,7 @@ footer .copyright a {
 
 .contact-btn {
   width: 30%;
-  margin: 8% 35%;
-}
-@media screen and (max-width: 768px) {
-  .contact-btn {
-    width: 40%;
-    margin: 8% 30%;
-  }
+  margin: 5% 35%;
 }
 @media screen and (max-width: 768px) {
   .contact-btn {
@@ -610,7 +605,8 @@ footer .copyright a {
 /* ----------- Contact Page ------------*/  
 /* -------------------------------------*/             
 .contact-form {
-  margin-bottom: 5%;
+  margin: 0 5% 5% 5%;
+  width: 90%;
 }
 .contact-form .row {
   flex-direction: column;

@@ -46,7 +46,7 @@
   <section class="header">
     <div class="row">
       <a href="index.html"><h1>Becky Skillin</h1></a>
-      <p><em>Quality editing for authors & organizations</em></p>
+      <p class="tagline"><em>Quality editing for authors & organizations</em></p>
     </div>
   </section>
 
@@ -145,18 +145,39 @@
     color: #fff;
     transition: 0.3;
   }
-  #fs-frm [type="submit"],
-  #fs-frm [type="reset"] {
-    margin-bottom: 0;
-  }
-  #fs-frm select {
-    text-transform: none;
-  }
   
-  #fs-frm [type="radio"] {
-    -webkit-appearance: radio;
-    -moz-appearance: radio;
-    appearance: radio;
+  @media screen and (max-width:768px) {
+    #fs-frm [type="text"],
+    #fs-frm [type="email"] {
+      width: 400px;
+    }
+
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm fieldset,
+    #fs-frm optgroup,
+    #fs-frm label,
+    #fs-frm #card-element:disabled {
+      font-size: 15px
+    }
+  }
+
+  @media screen and (max-width:480px) {
+    #fs-frm [type="text"],
+    #fs-frm [type="email"] {
+      width: 300px;
+    }
+
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm fieldset,
+    #fs-frm optgroup,
+    #fs-frm label,
+    #fs-frm #card-element:disabled {
+      font-size: 14px
+    }
   }
   </style>
 
