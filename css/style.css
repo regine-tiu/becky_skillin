@@ -619,5 +619,10 @@ footer .copyright a {
 .contact-form h2 {
   font-size: 48px;
 }
+@media screen and (max-width: 768px) {
+  .contact-form h2 {
+    font-size: 32px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
