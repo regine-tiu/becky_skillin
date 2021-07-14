@@ -225,7 +225,10 @@ h1
         font-weight: 500
         border: 1px solid $orange   
         padding: 10px 30px
-        border-radius: 50px    
+        border-radius: 50px  
+
+        @media screen and (max-width: $phone)
+            font-size: 14px  
 
     .learn-more-btn a:hover
         color: $white
@@ -254,7 +257,6 @@ h1
 
             @media screen and (max-width: $phone)
                 font-size: 14px
-                line-height: 1.6
 
 /* ----------- Testimonials --------------*/
 .testimonials
@@ -338,6 +340,7 @@ footer
     p 
         margin-bottom: 3%  
         color: $white
+        text-align: center
 
         @media screen and (max-width: $tablet)
             font-size: 14px
@@ -545,9 +548,6 @@ footer
 .contact-form  
     margin: 0 5% 5% 5%
     width: 90%
-
-    
-    
     .row
         flex-direction: column
     h2

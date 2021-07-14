@@ -237,6 +237,11 @@ h1 {
   padding: 10px 30px;
   border-radius: 50px;
 }
+@media screen and (max-width: 480px) {
+  .homepage-services .learn-more-btn a {
+    font-size: 14px;
+  }
+}
 .homepage-services .learn-more-btn a:hover {
   color: #ffffff;
   background-color: #D0835A;
@@ -265,7 +270,6 @@ h1 {
 @media screen and (max-width: 480px) {
   .homepage-services ul li {
     font-size: 14px;
-    line-height: 1.6;
   }
 }
 
@@ -366,6 +370,7 @@ footer img {
 footer p {
   margin-bottom: 3%;
   color: #ffffff;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   footer p {
