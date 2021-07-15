@@ -227,7 +227,7 @@ h1 {
 }
 @media screen and (max-width: 480px) {
   .homepage-services h5 {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .homepage-services .panel {
@@ -334,9 +334,29 @@ h1 {
   padding: 3% 5%;
   margin: 2% 0;
 }
+@media screen and (max-width: 768px) {
+  .testimonials .testimonial-box p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .testimonials .testimonial-box p {
+    font-size: 14px;
+  }
+}
 .testimonials .testimonial-box a {
   text-decoration: none;
   color: #D0835A;
+}
+@media screen and (max-width: 768px) {
+  .testimonials .testimonial-box a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .testimonials .testimonial-box a {
+    font-size: 14px;
+  }
 }
 
 /* ----------- Footer --------------*/
@@ -397,24 +417,46 @@ footer .copyright a {
 .about-content .row {
   flex-direction: row;
 }
+@media screen and (max-width: 480px) {
+  .about-content .row {
+    flex-direction: column;
+  }
+}
 .about-content h2 {
   font-size: 48px;
 }
-.about-content .col-1-of-2 {
-  width: 50%;
+@media screen and (max-width: 768px) {
+  .about-content h2 {
+    font-size: 32px;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
 }
 .about-content .about-photo {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 50%;
 }
 .about-content .about-photo img {
   width: 70%;
-  display: flex;
   border-radius: 10px;
   box-shadow: 35px 35px #6FA2D3;
   margin: 10% 0;
   margin-right: 10%;
+}
+@media screen and (max-width: 768px) {
+  .about-content .about-photo img {
+    box-shadow: 20px 20px #6FA2D3;
+    width: 80%;
+    margin-top: 0;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-content .about-photo img {
+    margin: 15%;
+  }
 }
 .about-content .about-text {
   display: flex;
@@ -424,11 +466,28 @@ footer .copyright a {
   margin: 0 5%;
   width: 40%;
 }
+@media screen and (max-width: 768px) {
+  .about-content .about-text {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-content .about-text {
+    margin: 0 15% 5% 15%;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+  }
+}
 .about-content .about-text .bio {
-  font-family: 32px;
   line-height: 1.6;
   color: #707070;
   margin: 1 5%;
+}
+@media screen and (max-width: 768px) {
+  .about-content .about-text .bio {
+    font-size: 15px;
+  }
 }
 
 /* -------------------------------------*/ 
