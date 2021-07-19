@@ -270,7 +270,7 @@ h1
         width: 90%
         margin: 0 5%
 
-        @media screen and (max-width: $phone)
+        @media screen and (max-width: $tablet)
             flex-direction: column
     
     .division-line
@@ -279,7 +279,7 @@ h1
         margin: 3% 35% 5% 35%
         display: none
 
-        @media screen and (max-width: $phone)
+        @media screen and (max-width: $tablet)
             display: block
 
     h2 
@@ -287,20 +287,19 @@ h1
         margin-bottom: 4%     
 
     .testimonial-box
-        border: 2px solid $orange
+        border: 1px solid $orange
         border-radius: 40px
-        width: 40% 
+        width: 475px 
+        height:350px
         margin: 1% 2% 3% 2%
         display: flex
         align-items: center
         padding: 1%
 
-        @media screen and (max-width: $tablet)
-            border: 1px solid $orange
-
-        @media screen and (max-width: $phone)
+        @media screen and (max-width: 950px)
             width: 80%
             border: none
+            height: auto
 
         p
             font-family: $tagline

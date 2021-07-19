@@ -286,7 +286,7 @@ h1 {
   width: 90%;
   margin: 0 5%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .testimonials .row {
     flex-direction: column;
   }
@@ -297,7 +297,7 @@ h1 {
   margin: 3% 35% 5% 35%;
   display: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .testimonials .division-line {
     display: block;
   }
@@ -307,23 +307,20 @@ h1 {
   margin-bottom: 4%;
 }
 .testimonials .testimonial-box {
-  border: 2px solid #D0835A;
+  border: 1px solid #D0835A;
   border-radius: 40px;
-  width: 40%;
+  width: 475px;
+  height: 350px;
   margin: 1% 2% 3% 2%;
   display: flex;
   align-items: center;
   padding: 1%;
 }
-@media screen and (max-width: 768px) {
-  .testimonials .testimonial-box {
-    border: 1px solid #D0835A;
-  }
-}
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 950px) {
   .testimonials .testimonial-box {
     width: 80%;
     border: none;
+    height: auto;
   }
 }
 .testimonials .testimonial-box p {
