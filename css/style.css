@@ -436,13 +436,13 @@ footer .copyright a {
   width: 50%;
 }
 .about-content .about-photo img {
-  width: 70%;
+  width: 65%;
   border-radius: 20px;
   box-shadow: 35px 35px #6FA2D3;
   margin: 10% 0;
   margin-right: 10%;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .about-content .about-photo img {
     width: 50%;
     margin-right: 20%;
