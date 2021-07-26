@@ -390,8 +390,6 @@ footer
         justify-content: flex-end
         align-items: center
         width: 50%
-
-        @media screen and (max-width: $phone)
             
         img
             width: 70%
@@ -399,6 +397,10 @@ footer
             box-shadow: 35px 35px $blue
             margin: 10% 0
             margin-right: 10%
+
+            @media screen and (min-width: $laptop)
+                width: 50%
+                margin-right: 20%
 
             @media screen and (max-width: $tablet)
                 box-shadow: 20px 20px $blue
@@ -416,6 +418,9 @@ footer
         flex-direction: column
         margin: 0 5%
         width: 40%
+
+        @media screen and (min-width: $laptop)
+            margin-right: 10%
 
         @media screen and (max-width: $tablet)
             width: 50%
