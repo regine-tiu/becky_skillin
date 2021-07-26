@@ -437,7 +437,7 @@ footer .copyright a {
 }
 .about-content .about-photo img {
   width: 70%;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 35px 35px #6FA2D3;
   margin: 10% 0;
   margin-right: 10%;
@@ -551,7 +551,7 @@ footer .copyright a {
   }
 }
 .service-box .hidden-box {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -628,7 +628,7 @@ footer .copyright a {
   }
 }
 
-.org-box {
+.org-box-intro {
   text-align: center;
 }
 
